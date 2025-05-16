@@ -1,0 +1,52 @@
+
+     Program POST-PROC v.7.4.1 starts on 16May2025 at 12:50:22 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+     2277 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./tmp/si.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PW
+                           (   1   4   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        2299    2299    649                72929    72929   10969
+
+     Using Slab Decomposition
+
+
+     Calling punch_plot, plot_num =   0
+     Writing data to file  ./data/si.rho.out
+     Reading data from file  ./data/si.rho.out
+
+     Writing data to be plotted to file ./data/si.rho.xsf
+
+     Min, Max, Total, Abs charge:   0.001263  0.085909      8.0000    8.0000
+     Plot Type: 3D                     Output format: XCrySDen     
+
+     POST-PROC    :      1.71s CPU      1.68s WALL
+
+
+   This run was terminated on:  12:50:24  16May2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
